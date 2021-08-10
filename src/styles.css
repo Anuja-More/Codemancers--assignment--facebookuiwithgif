@@ -1,0 +1,98 @@
+body {
+  background-color: #18191A;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  margin: 5px;
+}
+.postHeader,
+.header,
+.postFooter {
+  background-color: #eeecec;
+  height: 30px;
+  padding-left: 10px;
+  padding-top: 4px;
+}
+.postHeader {
+  border-radius: 10px 10px 0 0;
+}
+.postFooter {
+  display: flex;
+
+  flex-direction: row-reverse;
+  border-radius: 0 0 10px 10px;
+}
+.textInput {
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 2px;
+  width: 95%;
+  height: 50px;
+  border: 0px;
+  font-size: large;
+  padding: 5px;
+}
+input[type="text"]:focus {
+  border: 0px solid wheat;
+}
+.gifButton {
+  width: 40%;
+  height: 30px;
+  border-radius: 15px;
+  border: 0px;
+  text-align: left;
+  padding-left: 20px;
+  margin: 5px;
+}
+.postInputBox {
+  background-color: white;
+  position: relative;
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: 0 0 2px rgb(175, 174, 174);
+}
+.postButton {
+  border: 0;
+  height: 25px;
+  width: 100px;
+  color: white;
+  font-weight: 600;
+  margin-right: 20px;
+  border-radius: 4px;
+  background-color: #4267b2;
+}
+#gifSearchBox {
+  overflow: scroll;
+  position: absolute;
+  height: 60vh;
+  top: 120px;
+  left: 10%;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 5px black;
+  border-radius: 2px;
+}
+.search-bar {
+  height: 30px;
+  border: 1.5px solid gray;
+  margin-bottom: 10px;
+  border-radius: 2.5px;
+}
+.postBox {
+  margin-top: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: white;
+  color: rgb(68, 68, 68);
+  box-shadow: 0 0 2px rgb(175, 174, 174);
+}
+.postBox text {
+  padding-block: 10px;
+}
+.postBody {
+  margin: 10px;
+}
